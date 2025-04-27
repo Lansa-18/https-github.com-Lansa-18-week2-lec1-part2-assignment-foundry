@@ -35,5 +35,4 @@ contract CounterTest is Test {
         counter.reset();
         assertEq(counter.getCount(), 0);
     }
-
 }

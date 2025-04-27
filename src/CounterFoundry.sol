@@ -14,7 +14,7 @@ contract CounterFoundry {
     }
 
     // Function to increment the count value by 1
-    function incrementCount() public  {
+    function incrementCount() public {
         count += 1;
     }
 
@@ -29,5 +29,4 @@ contract CounterFoundry {
     function reset() public {
         count = 0;
     }
-
 }
